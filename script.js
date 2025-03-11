@@ -209,8 +209,10 @@
       };
   
       let scripts = [
-        "https://cogency.io/shared/js/vendors/axios.min.js",
-        "https://cogency.io/shared/css/app/app.embed-chat.min.css",
+        // "https://cogency.io/shared/js/vendors/axios.min.js",
+        "https://cdn.jsdelivr.net/gh/gaurav876409/demoHost@main/script1.js",
+        // "https://cogency.io/shared/css/app/app.embed-chat.min.css",
+        "https://cdn.jsdelivr.net/gh/gaurav876409/demoHost@main/style.css",
       ];
   
       Promise.all(scripts.map(_fetchScripts))
